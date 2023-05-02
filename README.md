@@ -6,7 +6,7 @@ enables the code to run.
 Files:
 Manifest.json and Background.js enable the program to run on google chrome. They communicate using codes
 that are specofic to my google chrome. Popup.html runs the extension creating the window, text, and buttons.
-Main-sublime.py runs the API code that retrieves current price data and displays it on my computer.
+Main-sublime.py runs the API code that retrieves current price data and displays it on my computer. PriceIndicator.py retrives the recent price moves and dispalys them. The .pngs are images I used to create the aesthetic of the extension
 
 To run the python code:
 
