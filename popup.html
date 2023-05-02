@@ -1,0 +1,103 @@
+<!-- This is the html file that houses the buttons, text, and style of the popup -->
+
+  <!DOCTYPE html>
+
+  <html>
+  <style type="text/css"> /* this is the css style guide for the popup and the buttons */
+      
+    html,body{ /* height and width*/
+      background: #023047;
+      width: 310px;
+      height: 220px;
+      color: white;
+    }
+
+    .button{ /* button style (size mainly) */
+      width: 80px;
+      height: 30px;
+      outline: none;
+      border: none;
+      border-radius: 3px;
+      margin: 10px;
+      transition-duration: 0.4s;
+      cursor: pointer;  
+    }
+
+    .button1{ /* each of these corresponds with a different button to a differnt site */
+      background: #219ebc;
+      color: white;
+      float: left;
+    }
+    
+    .button2{
+      background: grey;
+      color: white;
+      float: left;
+    }
+  
+    .button3{
+      background: #fb8500;
+      float: left;
+      color: white;
+    }
+
+    h1{
+      text-align: center;
+    }
+
+    h1 + p{
+      font-weight: bold;
+    }
+
+    img{
+      width: 30px;
+      height: 30px;
+    }
+
+  </style>
+
+
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+<body>
+  <!-- <script type="main-sublime.py"></script> -->
+
+  <h1>$148.35</h1>
+
+  <p>Your Wallet:</p>
+  <img src = "img/Ethererum.png" align="left" />
+  <img src = "img/Growth.png" align="right" />
+  <p>&nbsp Ethereum: $98.63</p>
+  <p style="color: lightgrey;">&nbsp ETH:   0.0067</p>
+
+  <img src = "img/Bitcoin.png" align="left" />
+  <img src = "img/Growth.png" align="right" />
+  <p>&nbsp Bitcoin: $45.64</p>
+  <p style="color: lightgrey;">&nbsp BTC: 0.00032</p>
+  
+  <img src = "img/ShibaInu.png" align="left"/>
+  <img src = "img/Growth.png" align="right" />
+  <p>&nbsp Shiba Inu: $4.08</p>
+  <p style="color: lightgrey;" >&nbsp SHIB: 1.43x10^6</p>
+  <p>&nbsp</p>
+
+
+  <!-- these are the buttons that take you to a different crpyto page-->
+  <form action="https://www.coinbase.com" method="get" target="_blank"> 
+    <button class = "button button1">Coinbase</button>
+  </form>
+
+  <form action="https://crypto.com/us" method="get" target="_blank">
+    <button class = "button button2">Crypto.com</button>
+  </form>
+
+  <form action="https://www.coindesk.com" methon="get" target="_blank">
+    <button class = "button button3">CoinDesk</button>
+  </form>
+
+</body>
+
+</html>

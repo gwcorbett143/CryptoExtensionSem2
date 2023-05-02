@@ -1,0 +1,15 @@
+//this was what runs the program from my desktop to google
+
+{
+	"name": "Crypto Keeper",
+	"description": "A place to see your crypto funds and access top crypto websites.",
+	"version": "1",
+	"manifest_version": 3,
+	"background": {
+		"service_worker": "background.js" //notice it makes use of background.js
+	},
+	"action": {
+		"default_popup": "popup.html"
+	},
+	"permissions": ["storage"]
+} 
